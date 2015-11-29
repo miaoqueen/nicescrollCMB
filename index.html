@@ -1,0 +1,48 @@
+<!--FYUPANQUIA  https://www.facebook.com/fyupanquia/ -->
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style type="text/css">
+.contenedor{
+width: 900px;
+height: 200px;
+background-color: gray;
+color:white;
+overflow: auto;
+}
+</style>
+</head>
+<body>
+<div class="contenedor">
+
+<p>00000001010000000000000000111111110010010011000010</p>
+<p>0001000101111000101011010000000001111010010101001000010010010010</p>
+<p>0001111111101001011000000001001001010101001001010100111111111111101010</p>
+<p>1010101010000000000001000111100101010010101010010101010101010</p>
+
+<p>0000000101000000000000000011111111001001001100001010010001</p>
+<p>00010000001011111001001000010001011110001010110100000000011110100101010</p>
+<p>010000100100100100001111111101001011000000001001001010101001001010100111</p>
+<p>11111111110101010101010100000000000010001111001010100</p>
+
+</div>
+<!-- Scripts JS -->
+<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="jquery.nicescroll.min.js"></script>
+
+
+<script>
+		$(document).ready(function(){ 
+				$(".contenedor").niceScroll({
+						cursorcolor:"#F00",
+						cursorborderradius:"22px",
+						cursoropacitymax:0.7,
+						boxzoom:true,
+						touchbehavior:true
+				});
+		});
+</script>
+
+</body>
+</html>
